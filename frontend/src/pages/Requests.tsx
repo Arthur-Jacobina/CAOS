@@ -43,7 +43,7 @@ export default function Requests({account} : {account:SDKState}) {
                                 <label htmlFor="problemDescription" className="block text-sm text-white font-light">
                                     Problem Description
                                 </label>
-                                <textarea id="problemDescription" className="py-2 px-4 mt-1 bg-gray-700 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                <textarea id="problemDescription" className="py-2 px-4 mt-1 bg-gray-700 block w-full border border-[#6D9EEB] rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                     /* value={problemDescription} onChange={(e) => setProblemDescription(e.target.value)} */ required
                                 ></textarea>
                             </div>
@@ -51,7 +51,7 @@ export default function Requests({account} : {account:SDKState}) {
                                 <label htmlFor="price" className="block text-sm font-light text-white">
                                     Price
                                 </label>
-                                <input type="number" id="price" className="py-2 px-4 mt-1 bg-gray-700 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                                <input type="number" id="price" className="py-2 px-4 mt-1 bg-gray-700 block w-full border border-[#6D9EEB] rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                                     /* value={price} onChange={(e) => setPrice(e.target.value)} */ required />
                             </div>
                             <div className="flex justify-end">

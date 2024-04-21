@@ -8,11 +8,11 @@ import checkedb from '../assets/checked-blue.svg'
 import { ManagerSignupInfo } from "../types/managerSignupInfo";
 import { SDKState, useAccount } from '@metamask/sdk-react-ui';
 import { ethers } from 'ethers';
-// import DeployERC20 from '../deploy/DeployERC20';
-// import DeployRent from '../deploy/DeployRent';
-// import DeployEvents from '../deploy/DeployEvents';
-// import DeployBills from '../deploy/DeployBills';
-// import DeployMaintenance from '../deploy/DeployMaintenance';
+import DeployERC20 from '../deploy/DeployERC20';
+import DeployRent from '../deploy/DeployRent';
+import DeployEvents from '../deploy/DeployEvents';
+import DeployBills from '../deploy/DeployBills';
+import DeployMaintenance from '../deploy/DeployMaintenance';
 
 
 export default function ManagerOwnersInfo({ info , account }: { info: ManagerSignupInfo |null ; account:SDKState }) {

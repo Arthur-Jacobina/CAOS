@@ -1,0 +1,25 @@
+{
+  "name": "solana",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "![Cute Orca](https://github.com/lucas-fochesatto/caos/tree/main/frontend/public/whale.png?raw=true)\r ## Decentralized Autonomous Organizations (DAO)\r CAOS is a DAO implemented with Solana designed for the managment of apartment complexes, it was made to empower a building's residents, allowing them to request and vote on changes to their home, with a completely automatic and transparent system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^1.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "express": "^4.19.2",
+    "hardhat": "^2.22.2",
+    "mysql2": "^3.9.3"
+  }
+}
