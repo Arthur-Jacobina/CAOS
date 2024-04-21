@@ -49,6 +49,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout resident={resident} account={account}/>}>
           <Route path="/" element={<Home account={account} />} />
+          <Route path="/login" element={<Login resident={resident} account={account} />} />
         </Route>
       </Routes>
     </BrowserRouter>
